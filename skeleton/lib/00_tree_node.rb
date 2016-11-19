@@ -85,3 +85,5 @@ class PolyTreeNode
   end
 
 end
+
+git filter-branch -f --env-filter "GIT_AUTHOR_NAME='Victor Guillen'; GIT_AUTHOR_EMAIL='victor.guillen.ch@gmail.com'; GIT_COMMITTER_NAME='Victor Guillen'; GIT_COMMITTER_EMAIL='victor.guillen.ch@gmail.com';" HEAD
