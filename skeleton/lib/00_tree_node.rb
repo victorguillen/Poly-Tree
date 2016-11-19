@@ -63,7 +63,7 @@ class PolyTreeNode
 
     @children.each do |child|
       current_result = child.dfs(target_value)
-      return current_result if current_result 
+      return current_result if current_result
     end
 
     nil
